@@ -116,6 +116,20 @@
     } while (ctx.measureText(texte).width > largeurMax && t > 24);
   }
 
+  // Réduit le texte jusqu'à une taille minimale, puis le coupe avec « … » s'il ne tient toujours pas.
+  function ajuster(ctx, texte, taille, poids, largeurMax, minimum) {
+    var t = taille;
+    ctx.font = poids + ' ' + t + 'px ' + POLICE;
+    while (ctx.measureText(texte).width > largeurMax && t > minimum) {
+      t -= 2;
+      ctx.font = poids + ' ' + t + 'px ' + POLICE;
+    }
+    if (ctx.measureText(texte).width <= largeurMax) return texte;
+    var coupe = texte;
+    while (coupe.length > 1 && ctx.measureText(coupe + '\u2026').width > largeurMax) coupe = coupe.slice(0, -1);
+    return coupe.replace(/\s+$/, '') + '\u2026';
+  }
+
   function degrade(ctx, x0, y0, x1, y1, arrets) {
     var g = ctx.createLinearGradient(x0, y0, x1, y1);
     arrets.forEach(function (a) { g.addColorStop(a[0], a[1]); });
@@ -302,8 +316,7 @@
       var ecart = 6;
       var taille = Math.min(40, Math.floor((colonne - (touches.length - 1) * ecart) / Math.max(1, touches.length)));
       ctx.fillStyle = '#fff6ee';
-      police(ctx, code.nom, 34, '700', colonne);
-      ctx.fillText(code.nom, x0, y0 + 34);
+      ctx.fillText(ajuster(ctx, code.nom, 34, '700', colonne, 18), x0, y0 + 34);
       touches.forEach(function (t, k) {
         var tx = x0 + k * (taille + ecart);
         var ty = y0 + 58;
