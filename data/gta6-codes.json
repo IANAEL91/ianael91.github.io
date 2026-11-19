@@ -1,0 +1,838 @@
+{
+  "maj": "2026-11-19",
+  "note": "Combinaisons vérifiées dans au moins deux sources, sauf mention « à confirmer ». Les combinaisons manquantes seront ajoutées au fil des découvertes.",
+  "sources": [
+    {
+      "nom": "Selectra",
+      "url": "https://selectra.info/telecom/actualites/marche/cheat-codes-gta-6-61-codes-histoire"
+    },
+    {
+      "nom": "4WeAreGamers",
+      "url": "https://www.4wearegamers.com/guides-tutos/gta-6-cheat-codes-codes-triche/"
+    },
+    {
+      "nom": "Dexerto",
+      "url": "https://www.dexerto.fr/gta/codes-de-triche-gta-6-1664312/"
+    },
+    {
+      "nom": "Gameblog",
+      "url": "https://www.gameblog.fr/jeu-video/ed/astuces/gta-6-code-de-triche-cheat-726866"
+    },
+    {
+      "nom": "Actugaming",
+      "url": "https://www.actugaming.net/codes-triche-gta-6-833892/"
+    }
+  ],
+  "categories": {
+    "joueur": "Joueur",
+    "combat": "Combat",
+    "vehicules": "Véhicules",
+    "temps": "Temps et météo",
+    "filtres": "Filtres d’écran"
+  },
+  "liste": [
+    {
+      "id": "argent-250k",
+      "categorie": "joueur",
+      "nom": "250 000 $",
+      "effet": "Ajoute 250 000 $, qui disparaissent quand tu quittes la session.",
+      "sequence": "HDBGHGBD",
+      "condition": "Terminer l’histoire principale.",
+      "en": {
+        "nom": "$250,000",
+        "effet": "Adds $250,000, which disappears when you quit the session.",
+        "condition": "Finish the main story."
+      }
+    },
+    {
+      "id": "concentration",
+      "categorie": "joueur",
+      "nom": "Concentration illimitée",
+      "effet": "La Concentration de combat ne se vide plus.",
+      "sequence": "BHHBHBHBHD",
+      "condition": "Terminer l’histoire principale.",
+      "en": {
+        "nom": "Unlimited Focus",
+        "effet": "Combat Focus never runs out.",
+        "condition": "Finish the main story."
+      }
+    },
+    {
+      "id": "gilet",
+      "categorie": "joueur",
+      "nom": "Gilet pare-balles",
+      "effet": "Équipe une protection pare-balles complète.",
+      "sequence": "BHGHHHHHBB",
+      "condition": "Faire 100 séances d’entraînement physique.",
+      "en": {
+        "nom": "Bulletproof Vest",
+        "effet": "Gives you full body armor.",
+        "condition": "Complete 100 workout sessions."
+      }
+    },
+    {
+      "id": "alerte",
+      "categorie": "joueur",
+      "nom": "Augmenter le niveau d’alerte",
+      "effet": "Fait monter l’alerte de la police.",
+      "sequence": "GBDBHBH",
+      "condition": "Semer 25 fois un indice de recherche à 3 étoiles.",
+      "en": {
+        "nom": "Raise Alert Level",
+        "effet": "Raises the police alert.",
+        "condition": "Lose a 3-star wanted level 25 times."
+      }
+    },
+    {
+      "id": "indice-recherche",
+      "categorie": "joueur",
+      "nom": "Augmenter l’indice de recherche",
+      "effet": "Ajoute des étoiles de recherche.",
+      "sequence": "GBDBHDH",
+      "sequence_a_confirmer": true,
+      "condition": "Semer 50 fois un indice de recherche à 3 étoiles.",
+      "en": {
+        "nom": "Raise Wanted Level",
+        "effet": "Adds wanted stars.",
+        "condition": "Lose a 3-star wanted level 50 times."
+      }
+    },
+    {
+      "id": "ivresse",
+      "categorie": "joueur",
+      "nom": "Ivresse",
+      "effet": "Ton personnage est ivre.",
+      "sequence": "",
+      "condition": "Dépenser 2 500 $ en alcool.",
+      "en": {
+        "nom": "Drunk Mode",
+        "effet": "Your character gets drunk.",
+        "condition": "Spend $2,500 on alcohol."
+      }
+    },
+    {
+      "id": "chute",
+      "categorie": "joueur",
+      "nom": "Pas de dégâts de chute",
+      "effet": "Les chutes ne blessent plus.",
+      "sequence": "",
+      "condition": "Survivre 20 fois à une chute de 12 mètres.",
+      "en": {
+        "nom": "No Fall Damage",
+        "effet": "Falls no longer hurt.",
+        "condition": "Survive a 12-meter fall 20 times."
+      }
+    },
+    {
+      "id": "parachute",
+      "categorie": "joueur",
+      "nom": "Parachute",
+      "effet": "Te donne un parachute.",
+      "sequence": "",
+      "condition": "Réussir 50 sauts en parachute ou base jumps de plus de 90 mètres.",
+      "en": {
+        "nom": "Parachute",
+        "effet": "Gives you a parachute.",
+        "condition": "Complete 50 parachute jumps or BASE jumps over 90 meters."
+      }
+    },
+    {
+      "id": "reparation",
+      "categorie": "joueur",
+      "nom": "Réparer le véhicule",
+      "effet": "Remet ton véhicule en état.",
+      "sequence": "",
+      "condition": "Gagner 10 courses sur circuit (Gellhorn Raceway, Thrillbilly Mud Club ou Boone Speedway).",
+      "en": {
+        "nom": "Repair Vehicle",
+        "effet": "Fixes your vehicle.",
+        "condition": "Win 10 circuit races (Gellhorn Raceway, Thrillbilly Mud Club or Boone Speedway)."
+      }
+    },
+    {
+      "id": "nitro",
+      "categorie": "joueur",
+      "nom": "Nitro illimitée",
+      "effet": "Nitro et carburant illimités.",
+      "sequence": "",
+      "condition": "Réussir 50 sauts acrobatiques.",
+      "en": {
+        "nom": "Unlimited Nitro",
+        "effet": "Unlimited nitro and fuel.",
+        "condition": "Complete 50 stunt jumps."
+      }
+    },
+    {
+      "id": "munitions-max",
+      "categorie": "combat",
+      "nom": "Munitions au maximum",
+      "effet": "Remplit toutes tes munitions.",
+      "sequence": "BHDBGGHHBG",
+      "condition": "Obtenir 20 médailles de bronze ou mieux aux stands de tir.",
+      "en": {
+        "nom": "Max Ammo",
+        "effet": "Refills all your ammo.",
+        "condition": "Earn 20 bronze medals or better at shooting ranges."
+      }
+    },
+    {
+      "id": "munitions-infinies",
+      "categorie": "combat",
+      "nom": "Munitions infinies",
+      "effet": "Tes munitions ne baissent plus.",
+      "sequence": "BHDBGGHBBB",
+      "condition": "Obtenir 25 médailles d’argent ou mieux aux stands de tir.",
+      "en": {
+        "nom": "Infinite Ammo",
+        "effet": "Your ammo never goes down.",
+        "condition": "Earn 25 silver medals or better at shooting ranges."
+      }
+    },
+    {
+      "id": "sans-rechargement",
+      "categorie": "combat",
+      "nom": "Pas de rechargement",
+      "effet": "Tire sans jamais recharger.",
+      "sequence": "BHDBGGHBBH",
+      "condition": "Obtenir 25 médailles d’or aux stands de tir.",
+      "en": {
+        "nom": "No Reload",
+        "effet": "Shoot without ever reloading.",
+        "condition": "Earn 25 gold medals at shooting ranges."
+      }
+    },
+    {
+      "id": "force-impact",
+      "categorie": "combat",
+      "nom": "Force d’impact",
+      "effet": "Les impacts sont beaucoup plus puissants.",
+      "sequence": "BHGGDBBHB",
+      "condition": "Terminer l’histoire principale.",
+      "en": {
+        "nom": "Impact Force",
+        "effet": "Hits land much harder.",
+        "condition": "Finish the main story."
+      }
+    },
+    {
+      "id": "ballons-explosifs",
+      "categorie": "combat",
+      "nom": "Ballons explosifs",
+      "effet": "Les balles et ballons de sport explosent à l’impact.",
+      "sequence": "BHGGDBBHD",
+      "condition": "Toucher 20 ennemis avec des dégâts explosifs.",
+      "en": {
+        "nom": "Explosive Balloons",
+        "effet": "Bullets and sports balls explode on impact.",
+        "condition": "Hit 20 enemies with explosive damage."
+      }
+    },
+    {
+      "id": "super-collisions",
+      "categorie": "combat",
+      "nom": "Super collisions",
+      "effet": "Tes chocs en véhicule sont beaucoup plus violents.",
+      "sequence": "BHGGDBGHB",
+      "condition": "Tuer 25 ennemis avec un véhicule.",
+      "en": {
+        "nom": "Super Collisions",
+        "effet": "Vehicle crashes hit much harder.",
+        "condition": "Kill 25 enemies with a vehicle."
+      }
+    },
+    {
+      "id": "armes-explosives",
+      "categorie": "combat",
+      "nom": "Armes explosives",
+      "effet": "Toutes les armes tirent des projectiles explosifs.",
+      "sequence": "",
+      "condition": "Lancer 100 grenades.",
+      "en": {
+        "nom": "Explosive Weapons",
+        "effet": "Every weapon fires explosive rounds.",
+        "condition": "Throw 100 grenades."
+      }
+    },
+    {
+      "id": "munitions-incendiaires",
+      "categorie": "combat",
+      "nom": "Munitions incendiaires",
+      "effet": "Tes balles enflamment ce qu’elles touchent.",
+      "sequence": "",
+      "condition": "Brûler 100 ennemis.",
+      "en": {
+        "nom": "Incendiary Ammo",
+        "effet": "Your bullets set targets on fire.",
+        "condition": "Burn 100 enemies."
+      }
+    },
+    {
+      "id": "molotov-explosifs",
+      "categorie": "combat",
+      "nom": "Cocktails Molotov explosifs",
+      "effet": "Les bouteilles explosent à l’impact.",
+      "sequence": "",
+      "condition": "Lancer 100 cocktails Molotov.",
+      "en": {
+        "nom": "Explosive Molotovs",
+        "effet": "Bottles explode on impact.",
+        "condition": "Throw 100 Molotov cocktails."
+      }
+    },
+    {
+      "id": "fusil-explosif",
+      "categorie": "combat",
+      "nom": "Fusil à pompe explosif",
+      "effet": "Fait apparaître un fusil à pompe explosif.",
+      "sequence": "",
+      "condition": "Toucher 100 ennemis avec des dégâts explosifs.",
+      "en": {
+        "nom": "Explosive Pump Shotgun",
+        "effet": "Spawns an explosive pump shotgun.",
+        "condition": "Hit 100 enemies with explosive damage."
+      }
+    },
+    {
+      "id": "lance-roquettes",
+      "categorie": "combat",
+      "nom": "Lance-roquettes Hauners H-AT",
+      "effet": "Te donne un lance-roquettes.",
+      "sequence": "",
+      "condition": "Détruire 100 véhicules.",
+      "en": {
+        "nom": "Hauners H-AT Rocket Launcher",
+        "effet": "Gives you a rocket launcher.",
+        "condition": "Destroy 100 vehicles."
+      }
+    },
+    {
+      "id": "boomazoom",
+      "categorie": "vehicules",
+      "nom": "Maibatsu Boomazoom",
+      "effet": "Fait apparaître le véhicule.",
+      "sequence": "GHDBGGHG",
+      "condition": "Réussir 5 défis de shopping.",
+      "en": {
+        "nom": "Maibatsu Boomazoom",
+        "effet": "Spawns the vehicle.",
+        "condition": "Complete 5 shopping challenges."
+      }
+    },
+    {
+      "id": "camion-pompier",
+      "categorie": "vehicules",
+      "nom": "Camion de pompier MTL",
+      "effet": "Fait apparaître le véhicule.",
+      "sequence": "GHDBGDDH",
+      "condition": "Découvrir le véhicule dans le menu Progression.",
+      "condition_a_confirmer": true,
+      "en": {
+        "nom": "MTL Fire Truck (Pumper)",
+        "effet": "Spawns the vehicle.",
+        "condition": "Discover the vehicle in the Progress menu."
+      }
+    },
+    {
+      "id": "bulldozer",
+      "categorie": "vehicules",
+      "nom": "Bulldozer HVY",
+      "effet": "Fait apparaître le véhicule.",
+      "sequence": "GHDBGDDB",
+      "condition": "Découvrir le véhicule dans le menu Progression.",
+      "en": {
+        "nom": "HVY Bulldozer",
+        "effet": "Spawns the vehicle.",
+        "condition": "Discover the vehicle in the Progress menu."
+      }
+    },
+    {
+      "id": "ambulance",
+      "categorie": "vehicules",
+      "nom": "Ambulance",
+      "effet": "Fait apparaître le véhicule.",
+      "sequence": "",
+      "condition": "Découvrir l’ambulance dans le menu Progression.",
+      "en": {
+        "nom": "Ambulance",
+        "effet": "Spawns the vehicle.",
+        "condition": "Discover the ambulance in the Progress menu."
+      }
+    },
+    {
+      "id": "airboat",
+      "categorie": "vehicules",
+      "nom": "Airboat 09",
+      "effet": "Fait apparaître le véhicule.",
+      "sequence": "",
+      "condition": "Réussir 5 défis de survie.",
+      "en": {
+        "nom": "Airboat 09",
+        "effet": "Spawns the vehicle.",
+        "condition": "Complete 5 survival challenges."
+      }
+    },
+    {
+      "id": "banshee",
+      "categorie": "vehicules",
+      "nom": "Bravado Banshee",
+      "effet": "Fait apparaître le véhicule.",
+      "sequence": "",
+      "condition": "Réussir tous les défis de combat.",
+      "en": {
+        "nom": "Bravado Banshee",
+        "effet": "Spawns the vehicle.",
+        "condition": "Complete every combat challenge."
+      }
+    },
+    {
+      "id": "bmx",
+      "categorie": "vehicules",
+      "nom": "Tuff BMX",
+      "effet": "Fait apparaître le vélo.",
+      "sequence": "",
+      "condition": "Réussir 5 défis de fitness.",
+      "en": {
+        "nom": "Tuff BMX",
+        "effet": "Spawns the bike.",
+        "condition": "Complete 5 fitness challenges."
+      }
+    },
+    {
+      "id": "carbon-rs",
+      "categorie": "vehicules",
+      "nom": "Nagasaki Carbon RS",
+      "effet": "Fait apparaître le véhicule.",
+      "sequence": "",
+      "condition": "Réussir tous les défis d’exploration.",
+      "en": {
+        "nom": "Nagasaki Carbon RS",
+        "effet": "Spawns the vehicle.",
+        "condition": "Complete every exploration challenge."
+      }
+    },
+    {
+      "id": "dominator-65",
+      "categorie": "vehicules",
+      "nom": "Vapid Dominator 1965",
+      "effet": "Fait apparaître le véhicule.",
+      "sequence": "",
+      "condition": "Réussir tous les défis de fitness.",
+      "en": {
+        "nom": "Vapid Dominator 1965",
+        "effet": "Spawns the vehicle.",
+        "condition": "Complete every fitness challenge."
+      }
+    },
+    {
+      "id": "emerus",
+      "categorie": "vehicules",
+      "nom": "Progen Emerus",
+      "effet": "Fait apparaître le véhicule.",
+      "sequence": "",
+      "condition": "Réussir tous les défis de véhicule.",
+      "en": {
+        "nom": "Progen Emerus",
+        "effet": "Spawns the vehicle.",
+        "condition": "Complete every vehicle challenge."
+      }
+    },
+    {
+      "id": "flamant",
+      "categorie": "vehicules",
+      "nom": "Flamant rose gonflable",
+      "effet": "Fait apparaître la bouée.",
+      "sequence": "",
+      "condition": "Détruire 50 flamants de cocaïne.",
+      "en": {
+        "nom": "Inflatable Pink Flamingo",
+        "effet": "Spawns the pool float.",
+        "condition": "Destroy 50 cocaine flamingos."
+      }
+    },
+    {
+      "id": "taxi",
+      "categorie": "vehicules",
+      "nom": "Taxi Vapid Stanier G2",
+      "effet": "Fait apparaître le véhicule.",
+      "sequence": "",
+      "condition": "Réussir 5 défis sportifs.",
+      "en": {
+        "nom": "Vapid Stanier G2 Taxi",
+        "effet": "Spawns the vehicle.",
+        "condition": "Complete 5 sports challenges."
+      }
+    },
+    {
+      "id": "lazer",
+      "categorie": "vehicules",
+      "nom": "Avion de chasse Hauners P-996 Lazer",
+      "effet": "Fait apparaître l’avion.",
+      "sequence": "",
+      "condition": "Réussir tous les défis du jeu.",
+      "en": {
+        "nom": "Hauners P-996 Lazer Fighter Jet",
+        "effet": "Spawns the jet.",
+        "condition": "Complete every challenge in the game."
+      }
+    },
+    {
+      "id": "mallard",
+      "categorie": "vehicules",
+      "nom": "Lapwing Mallard",
+      "effet": "Fait apparaître l’appareil.",
+      "sequence": "",
+      "condition": "Réussir 5 défis de véhicule.",
+      "en": {
+        "nom": "Lapwing Mallard",
+        "effet": "Spawns the aircraft.",
+        "condition": "Complete 5 vehicle challenges."
+      }
+    },
+    {
+      "id": "golfer",
+      "categorie": "vehicules",
+      "nom": "Brimstone Golfer",
+      "effet": "Fait apparaître le véhicule.",
+      "sequence": "",
+      "condition": "Réussir tous les défis sportifs.",
+      "en": {
+        "nom": "Brimstone Golfer",
+        "effet": "Spawns the vehicle.",
+        "condition": "Complete every sports challenge."
+      }
+    },
+    {
+      "id": "rhino",
+      "categorie": "vehicules",
+      "nom": "Char Hauners Rhino",
+      "effet": "Fait apparaître le char.",
+      "sequence": "",
+      "condition": "Réussir tous les défis de survie.",
+      "en": {
+        "nom": "Hauners Rhino Tank",
+        "effet": "Spawns the tank.",
+        "condition": "Complete every survival challenge."
+      }
+    },
+    {
+      "id": "sanchez",
+      "categorie": "vehicules",
+      "nom": "Maibatsu Sanchez",
+      "effet": "Fait apparaître la moto.",
+      "sequence": "",
+      "condition": "Réussir 5 défis criminels.",
+      "en": {
+        "nom": "Maibatsu Sanchez",
+        "effet": "Spawns the bike.",
+        "condition": "Complete 5 criminal challenges."
+      }
+    },
+    {
+      "id": "sea-sparrow",
+      "categorie": "vehicules",
+      "nom": "Nagasaki Sea Sparrow",
+      "effet": "Fait apparaître l’hélicoptère.",
+      "sequence": "",
+      "condition": "Réussir 5 défis d’exploration.",
+      "en": {
+        "nom": "Nagasaki Sea Sparrow",
+        "effet": "Spawns the helicopter.",
+        "condition": "Complete 5 exploration challenges."
+      }
+    },
+    {
+      "id": "speeder",
+      "categorie": "vehicules",
+      "nom": "Speeder 700 GT",
+      "effet": "Fait apparaître le bateau.",
+      "sequence": "",
+      "condition": "Réussir 5 défis de combat.",
+      "en": {
+        "nom": "Speeder 700 GT",
+        "effet": "Spawns the boat.",
+        "condition": "Complete 5 combat challenges."
+      }
+    },
+    {
+      "id": "thrax",
+      "categorie": "vehicules",
+      "nom": "Truffade Thrax",
+      "effet": "Fait apparaître le véhicule.",
+      "sequence": "",
+      "condition": "Réussir tous les défis de shopping.",
+      "en": {
+        "nom": "Truffade Thrax",
+        "effet": "Spawns the vehicle.",
+        "condition": "Complete every shopping challenge."
+      }
+    },
+    {
+      "id": "zombie-bobber",
+      "categorie": "vehicules",
+      "nom": "Western Zombie Bobber",
+      "effet": "Fait apparaître la moto.",
+      "sequence": "",
+      "condition": "Réussir tous les défis criminels.",
+      "en": {
+        "nom": "Western Zombie Bobber",
+        "effet": "Spawns the bike.",
+        "condition": "Complete every criminal challenge."
+      }
+    },
+    {
+      "id": "meteo",
+      "categorie": "temps",
+      "nom": "Changer la météo",
+      "effet": "Fait défiler les conditions météo.",
+      "sequence": "BDHBDHD",
+      "condition": "Terminer l’histoire principale.",
+      "en": {
+        "nom": "Change Weather",
+        "effet": "Cycles through weather conditions.",
+        "condition": "Finish the main story."
+      }
+    },
+    {
+      "id": "avancer-heure",
+      "categorie": "temps",
+      "nom": "Avancer l’heure",
+      "effet": "Fait avancer l’heure de la journée.",
+      "sequence": "",
+      "condition": "Trouver 10 montres à collectionner.",
+      "en": {
+        "nom": "Advance Time",
+        "effet": "Moves the time of day forward.",
+        "condition": "Find 10 collectible watches."
+      }
+    },
+    {
+      "id": "figer-temps",
+      "categorie": "temps",
+      "nom": "Figer le temps",
+      "effet": "Bloque l’heure de la journée.",
+      "sequence": "",
+      "condition": "Trouver 20 montres à collectionner.",
+      "en": {
+        "nom": "Freeze Time",
+        "effet": "Locks the time of day.",
+        "condition": "Find 20 collectible watches."
+      }
+    },
+    {
+      "id": "cataclysme",
+      "categorie": "filtres",
+      "nom": "Cataclysme",
+      "effet": "Une fumée sombre recouvre le décor.",
+      "sequence": "BBHDDHGGDD",
+      "condition": "Découvrir la Vamos de Martha dans le menu Progression.",
+      "en": {
+        "nom": "Cataclysm",
+        "effet": "Dark smoke covers the scenery.",
+        "condition": "Discover Martha’s Vamos in the Progress menu."
+      }
+    },
+    {
+      "id": "maison-poupee",
+      "categorie": "filtres",
+      "nom": "Maison de poupée",
+      "effet": "Couleurs vives et cadrage resserré.",
+      "sequence": "BBHDDHGGBD",
+      "condition": "Passer 8 heures avec ton partenaire.",
+      "en": {
+        "nom": "Dollhouse",
+        "effet": "Vivid colors and tighter framing.",
+        "condition": "Spend 8 hours with your partner."
+      }
+    },
+    {
+      "id": "gloire-fanee",
+      "categorie": "filtres",
+      "nom": "Gloire fanée",
+      "effet": "Couleurs façon vieux téléviseur.",
+      "sequence": "BBHDDHGGGD",
+      "condition": "Braquer 50 magasins avec ton partenaire.",
+      "en": {
+        "nom": "Faded Glory",
+        "effet": "Old-TV style colors.",
+        "condition": "Rob 50 stores with your partner."
+      }
+    },
+    {
+      "id": "heure-doree",
+      "categorie": "filtres",
+      "nom": "Heure dorée",
+      "effet": "Teinte dorée et image panoramique.",
+      "sequence": "",
+      "condition": "Tenir la main de ton partenaire pendant 4 heures au total.",
+      "en": {
+        "nom": "Golden Hour",
+        "effet": "Golden tint and a widescreen look.",
+        "condition": "Hold your partner’s hand for 4 hours in total."
+      }
+    },
+    {
+      "id": "sucre-glace",
+      "categorie": "filtres",
+      "nom": "Sucre glace",
+      "effet": "Monde blanc aux reflets scintillants.",
+      "sequence": "",
+      "condition": "Scanner tous les débris spatiaux avec l’appli WAiNK.",
+      "en": {
+        "nom": "Powdered Sugar",
+        "effet": "A white world with sparkling reflections.",
+        "condition": "Scan all the space debris with the WAiNK app."
+      }
+    },
+    {
+      "id": "stenope",
+      "categorie": "filtres",
+      "nom": "Sténopé",
+      "effet": "Effet d’appareil photo sténopé.",
+      "sequence": "",
+      "condition": "Démanteler 25 opérations de gang avec ton partenaire.",
+      "en": {
+        "nom": "Pinhole",
+        "effet": "Pinhole camera effect.",
+        "condition": "Take down 25 gang operations with your partner."
+      }
+    },
+    {
+      "id": "jungle-neon",
+      "categorie": "filtres",
+      "nom": "Jungle néon",
+      "effet": "Néons et reflets renforcés.",
+      "sequence": "",
+      "condition": "Découvrir les 16 véhicules Girlypop.",
+      "en": {
+        "nom": "Neon Jungle",
+        "effet": "Boosted neon lights and reflections.",
+        "condition": "Discover all 16 Girlypop vehicles."
+      }
+    },
+    {
+      "id": "autrefois",
+      "categorie": "filtres",
+      "nom": "Autrefois",
+      "effet": "Noir et blanc façon vieil écran.",
+      "sequence": "",
+      "condition": "Découvrir la Ridgeway.",
+      "en": {
+        "nom": "Yesteryear",
+        "effet": "Black and white, old-screen style.",
+        "condition": "Discover the Ridgeway."
+      }
+    },
+    {
+      "id": "cassette",
+      "categorie": "filtres",
+      "nom": "Cassette vidéo",
+      "effet": "Image façon cassette VHS.",
+      "sequence": "",
+      "condition": "Faire 50 activités avec ton partenaire.",
+      "en": {
+        "nom": "Videotape",
+        "effet": "VHS tape look.",
+        "condition": "Do 50 activities with your partner."
+      }
+    },
+    {
+      "id": "miroir-sombre",
+      "categorie": "filtres",
+      "nom": "Miroir sombre",
+      "effet": "Monde inversé et assombri.",
+      "sequence": "",
+      "condition": "Gagner 500 000 $ en revendant des véhicules.",
+      "en": {
+        "nom": "Dark Mirror",
+        "effet": "An inverted, darker world.",
+        "condition": "Make $500,000 reselling vehicles."
+      }
+    },
+    {
+      "id": "migraine",
+      "categorie": "filtres",
+      "nom": "Migraine",
+      "effet": "Image floue et déformée.",
+      "sequence": "",
+      "condition": "Survivre 6 minutes avec 6 étoiles de recherche.",
+      "en": {
+        "nom": "Migraine",
+        "effet": "Blurry, warped image.",
+        "condition": "Survive 6 minutes with a 6-star wanted level."
+      }
+    },
+    {
+      "id": "chewing-gum",
+      "categorie": "filtres",
+      "nom": "Chewing-gum",
+      "effet": "Reflets violets et jaunes.",
+      "sequence": "",
+      "condition": "Trouver les 24 cartes à collectionner de Vice City.",
+      "en": {
+        "nom": "Bubblegum",
+        "effet": "Purple and yellow shimmer.",
+        "condition": "Find all 24 Vice City collectible cards."
+      }
+    },
+    {
+      "id": "avance-rapide",
+      "categorie": "filtres",
+      "nom": "Avance rapide",
+      "effet": "Flou de mouvement et nuages accélérés.",
+      "sequence": "",
+      "condition": "Faire 50 séances de méditation.",
+      "en": {
+        "nom": "Fast Forward",
+        "effet": "Motion blur and fast-moving clouds.",
+        "condition": "Complete 50 meditation sessions."
+      }
+    },
+    {
+      "id": "fisheye",
+      "categorie": "filtres",
+      "nom": "Fisheye",
+      "effet": "Effet d’objectif fisheye.",
+      "sequence": "",
+      "condition": "Pêcher 100 poissons.",
+      "en": {
+        "nom": "Fisheye",
+        "effet": "Fisheye lens effect.",
+        "condition": "Catch 100 fish."
+      }
+    },
+    {
+      "id": "pixel-art",
+      "categorie": "filtres",
+      "nom": "Pixel art",
+      "effet": "Image pixelisée.",
+      "sequence": "",
+      "condition": "Gagner 250 000 $ en revendant des objets de collection.",
+      "en": {
+        "nom": "Pixel Art",
+        "effet": "Pixelated image.",
+        "condition": "Make $250,000 reselling collectibles."
+      }
+    },
+    {
+      "id": "enfer",
+      "categorie": "filtres",
+      "nom": "Enfer",
+      "effet": "Tons rouges et orangés, distorsion de chaleur.",
+      "sequence": "",
+      "condition": "Voler 100 véhicules de police.",
+      "en": {
+        "nom": "Hellscape",
+        "effet": "Red and orange tones with heat haze.",
+        "condition": "Steal 100 police vehicles."
+      }
+    }
+  ],
+  "note_en": "Sequences checked against at least two sources unless marked “to be confirmed”. Missing sequences will be added as they are found.",
+  "categories_en": {
+    "joueur": "Player",
+    "combat": "Combat",
+    "vehicules": "Vehicles",
+    "temps": "Time and weather",
+    "filtres": "Screen filters"
+  }
+}

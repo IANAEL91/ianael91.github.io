@@ -1,0 +1,71 @@
+<!--meta {"titre": "GTA 6: do you have enough space? Storage and download time calculator", "description": "GTA 6 needs up to 212 GB. Enter your PS5 or Xbox free space and your internet speed: you’ll know right away if it fits and how long the download will take.", "nav": "gta-6-storage", "priorite": "0.9", "scripts": ["place.js"], "alt": "place-gta-6"} -->
+<h1>GTA 6: do you have enough space?</h1>
+<p class="chapo">Rockstar says the game needs up to 212&nbsp;GB. Enter your console’s free space and your internet speed: the result updates instantly.</p>
+
+<div class="calculateur">
+  <form id="calcul" class="formulaire" novalidate>
+    <div class="champ">
+      <label for="console">Your console</label>
+      <select id="console" name="console">
+        <option value="ps5" data-famille="ps5" data-utile="667">PS5 (825 GB)</option>
+        <option value="ps5-slim" data-famille="ps5">PS5 Slim (1 TB)</option>
+        <option value="ps5-pro" data-famille="ps5">PS5 Pro (2 TB)</option>
+        <option value="series-x" data-famille="xbox" data-utile="802">Xbox Series X (1 TB)</option>
+        <option value="series-s" data-famille="xbox" data-utile="364">Xbox Series S (512 GB)</option>
+      </select>
+      <p id="contexte" class="aide discret">On a standard PS5, about 667&nbsp;GB is usable in total.</p>
+    </div>
+    <div class="champ">
+      <label for="libre">Free space</label>
+      <div class="suffixe"><input id="libre" name="libre" type="text" inputmode="decimal" autocomplete="off" placeholder="e.g. 250" aria-describedby="aide-libre"><span aria-hidden="true">GB</span></div>
+      <p id="aide-libre" class="aide discret">On PS5: Settings, then Storage. On Xbox: Settings, System, then Storage.</p>
+    </div>
+    <div class="champ">
+      <label for="debit">Your internet speed</label>
+      <div class="suffixe"><input id="debit" name="debit" type="text" inputmode="decimal" autocomplete="off" placeholder="e.g. 300"><span aria-hidden="true">Mbps</span></div>
+      <div class="puces" role="group" aria-label="Common speeds">
+        <button type="button" class="puce" data-debit="25" aria-pressed="false">DSL 25</button>
+        <button type="button" class="puce" data-debit="100" aria-pressed="false">Cable 100</button>
+        <button type="button" class="puce" data-debit="300" aria-pressed="false">Fiber 300</button>
+        <button type="button" class="puce" data-debit="1000" aria-pressed="false">Fiber 1&nbsp;Gbps</button>
+      </div>
+    </div>
+  </form>
+
+  <div class="resultat-zone">
+    <div id="resultat" class="sign sign--bleu resultat" aria-live="polite">
+      <p id="res-titre" class="sign__titre">Enter your free space</p>
+      <p id="res-texte" class="resultat__texte">We’ll tell you right away if the 212&nbsp;GB fits.</p>
+      <p id="res-temps" class="resultat__temps">Add your speed to estimate the download time.</p>
+    </div>
+    <p class="discret note-calcul">Theoretical estimate, with 1&nbsp;GB = 1&nbsp;billion bytes. Servers are often overloaded around release: allow extra time.</p>
+  </div>
+</div>
+
+<section class="bloc conseils" data-conseils="ps5" hidden aria-labelledby="conseils-ps5">
+  <h2 id="conseils-ps5">Free up space on PS5</h2>
+  <ul class="liste">
+    <li>Delete games you no longer play: they stay in your library and your saves stay on the console.</li>
+    <li>Move PS5 games to a USB drive: it stores them, but you’ll need to move them back to play.</li>
+    <li>Add an M.2 SSD (NVMe PCIe 4.0, with a heatsink) to the PS5 expansion slot: games run straight from it.</li>
+  </ul>
+  <p class="boutons"><a class="bouton" href="{{amazon:M.2 NVMe SSD PCIe 4.0 PS5 heatsink}}" rel="sponsored nofollow noopener" target="_blank">See PS5-compatible SSDs</a></p>
+  {{note_affiliation}}
+</section>
+
+<section class="bloc conseils" data-conseils="xbox" hidden aria-labelledby="conseils-xbox">
+  <h2 id="conseils-xbox">Free up space on Xbox</h2>
+  <ul class="liste">
+    <li>Uninstall games you no longer play: they stay in your collection.</li>
+    <li>A USB drive can store Xbox Series games, but it can’t run them.</li>
+    <li>Add a storage expansion card for Xbox Series: games run from it just like from the internal SSD.</li>
+  </ul>
+  <p class="boutons"><a class="bouton" href="{{amazon:Xbox Series storage expansion card}}" rel="sponsored nofollow noopener" target="_blank">See Xbox expansion cards</a></p>
+  {{note_affiliation}}
+</section>
+
+<section class="bloc" aria-labelledby="sources-place">
+  <h2 id="sources-place">Where these numbers come from</h2>
+  <p class="texte">Rockstar says the game needs up to 212&nbsp;GB depending on the device. The usable space for each console is an average reported by the press.</p>
+  <p class="source">Sources: <a href="https://gamesradar.com/games/grand-theft-auto/rockstar-confirms-gta-6-is-212gb-pre-loading-opens-earlier-than-previously-announced-for-digital-orders" rel="noopener">GamesRadar</a>, <a href="https://insider-gaming.com/gta-6-size-playstation-xbox/" rel="noopener">Insider Gaming</a>, <a href="https://www.actugaming.net/?p=832977" rel="noopener">Actugaming (in French)</a></p>
+</section>

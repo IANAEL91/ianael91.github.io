@@ -1,0 +1,49 @@
+{
+  "nom_site": "Objectif 100 %",
+  "url": "https://ianael91.github.io",
+  "domaine_perso": "",
+  "amazon_tag": "",
+  "amazon_en": {
+    "domaine": "www.amazon.com",
+    "tag": ""
+  },
+  "adsense_client": "",
+  "google_site_verification": "",
+  "cloudflare_analytics": "",
+  "indexnow": "3b9d9c0835c6defd4a70938bf8bfce53",
+  "editeur": {
+    "nom": "",
+    "statut": "",
+    "siret": "",
+    "adresse": "",
+    "email": ""
+  },
+  "youtube": {
+    "channel_id": "",
+    "user": "RockstarGames",
+    "mots_cles": [
+      "GTA VI",
+      "GTA 6",
+      "Grand Theft Auto VI"
+    ],
+    "max": 6
+  },
+  "sortie": "2026-11-19T00:00:00+01:00",
+  "bandeaux": [
+    {
+      "texte": "Black Friday jusqu’au 30 novembre : les bons plans PS5, Xbox et SSD",
+      "lien": "bons-plans-gta-6",
+      "texte_en": "Black Friday until November 30: PS5, Xbox and SSD deals",
+      "lien_en": "gta-6-deals",
+      "jusqua": "2026-11-30"
+    },
+    {
+      "texte": "Noël : les idées cadeaux pour un fan de GTA 6",
+      "lien": "bons-plans-gta-6",
+      "texte_en": "Christmas: gift ideas for GTA 6 fans",
+      "lien_en": "gta-6-deals",
+      "du": "2026-12-01",
+      "jusqua": "2026-12-24"
+    }
+  ]
+}

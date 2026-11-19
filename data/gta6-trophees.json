@@ -1,0 +1,641 @@
+{
+  "statut": "officiel",
+  "maj": "2026-11-19",
+  "total_annonce": 55,
+  "note": "Noms officiels de la version anglaise, conditions traduites en français. 27 trophées sont visibles et 28 sont cachés : ils sont masqués par défaut pour éviter les spoilers.",
+  "sources": [
+    {
+      "nom": "TechWiser",
+      "url": "https://techwiser.com/gta-6-trophies-achievements/"
+    },
+    {
+      "nom": "Insider Gaming",
+      "url": "https://insider-gaming.com/complete-gta-6-trophy-list-how-to-get-all-trophies-achievements/"
+    },
+    {
+      "nom": "OutputLag",
+      "url": "https://outputlag.com/guides/gta-6-trophy-list/"
+    },
+    {
+      "nom": "AlcastHQ",
+      "url": "https://alcasthq.com/gta-6-trophy-list/"
+    }
+  ],
+  "categories": {
+    "histoire": "Histoire",
+    "secondaire": "Missions secondaires",
+    "braquages": "Braquages et police",
+    "activites": "Activités",
+    "vehicules": "Véhicules",
+    "exploration": "Exploration",
+    "collection": "Objets à collectionner",
+    "argent": "Argent et propriétés",
+    "combat": "Combat",
+    "divers": "Divers"
+  },
+  "liste": [
+    {
+      "id": "vice-got-a-price",
+      "nom": "Vice Got a Price!",
+      "type": "platine",
+      "categorie": "divers",
+      "description": "Obtiens tous les autres trophées du jeu.",
+      "en": {
+        "description": "Earn every other trophy in the game."
+      }
+    },
+    {
+      "id": "a-long-road",
+      "nom": "A Long Road",
+      "type": "or",
+      "categorie": "divers",
+      "description": "Atteins 100 % de complétion.",
+      "astuce": "Il faut finir l’histoire, les activités, les objets à collectionner et les défis.",
+      "en": {
+        "description": "Reach 100% completion.",
+        "astuce": "You need the story, activities, collectibles and challenges."
+      }
+    },
+    {
+      "id": "cunning-stunts",
+      "nom": "Cunning Stunts",
+      "type": "argent",
+      "categorie": "vehicules",
+      "description": "Réussis 250 cascades.",
+      "en": {
+        "description": "Pull off 250 stunts."
+      }
+    },
+    {
+      "id": "the-shootist",
+      "nom": "The Shootist",
+      "type": "argent",
+      "categorie": "activites",
+      "description": "Décroche la médaille d’or à tous les défis des stands de tir.",
+      "astuce": "42 défis au total d’après AlcastHQ.",
+      "en": {
+        "description": "Get a gold medal in every shooting range challenge.",
+        "astuce": "42 challenges in total, according to AlcastHQ."
+      }
+    },
+    {
+      "id": "maximum-withdrawal",
+      "nom": "Maximum Withdrawal",
+      "type": "argent",
+      "categorie": "braquages",
+      "description": "Pille 5 coffres de banque et échappe-toi.",
+      "en": {
+        "description": "Rob 5 bank vaults and get away."
+      }
+    },
+    {
+      "id": "strangers-freaks",
+      "nom": "Strangers & Freaks",
+      "type": "argent",
+      "categorie": "secondaire",
+      "description": "Termine 8 séries de missions d’inconnus à travers Leonida.",
+      "en": {
+        "description": "Finish 8 stranger mission strands across Leonida."
+      }
+    },
+    {
+      "id": "dont-touch-my-deck",
+      "nom": "Don’t Touch My Deck",
+      "type": "argent",
+      "categorie": "collection",
+      "description": "Complète 3 collections de cartes à collectionner.",
+      "en": {
+        "description": "Complete 3 sets of collectible cards."
+      }
+    },
+    {
+      "id": "you-wainker",
+      "nom": "You WAiNKer!",
+      "type": "argent",
+      "categorie": "exploration",
+      "description": "Utilise l’appli WAiNK à 100 endroits.",
+      "en": {
+        "description": "Use the WAiNK app at 100 locations."
+      }
+    },
+    {
+      "id": "master-of-none",
+      "nom": "Master of None",
+      "type": "bronze",
+      "categorie": "activites",
+      "description": "Essaie chaque type d’activité au moins une fois.",
+      "astuce": "9 types d’activités d’après AlcastHQ.",
+      "en": {
+        "description": "Try every type of activity at least once.",
+        "astuce": "9 activity types, according to AlcastHQ."
+      }
+    },
+    {
+      "id": "top-fun",
+      "nom": "Top Fun",
+      "type": "bronze",
+      "categorie": "activites",
+      "description": "Gagne une course de drones Top Fun à chaque emplacement.",
+      "astuce": "14 emplacements d’après AlcastHQ.",
+      "en": {
+        "description": "Win a Top Fun drone race at every location.",
+        "astuce": "14 locations, according to AlcastHQ."
+      }
+    },
+    {
+      "id": "earn-cash-not-kudos",
+      "nom": "Earn Cash, Not Kudos",
+      "type": "bronze",
+      "categorie": "vehicules",
+      "description": "Gagne 20 courses différentes.",
+      "en": {
+        "description": "Win 20 different races."
+      }
+    },
+    {
+      "id": "baited-my-tackle",
+      "nom": "Baited My Tackle",
+      "type": "bronze",
+      "categorie": "activites",
+      "description": "Bats Cal lors d’un défi de pêche.",
+      "en": {
+        "description": "Beat Cal in a fishing challenge."
+      }
+    },
+    {
+      "id": "stick-fiddler",
+      "nom": "Stick Fiddler",
+      "type": "bronze",
+      "categorie": "activites",
+      "description": "Termine un jeu d’arcade.",
+      "en": {
+        "description": "Finish an arcade game."
+      }
+    },
+    {
+      "id": "positive-mental-attitude",
+      "nom": "Positive Mental Attitude",
+      "type": "bronze",
+      "categorie": "exploration",
+      "description": "Médite à chaque lieu de méditation de Leonida.",
+      "en": {
+        "description": "Meditate at every meditation spot in Leonida."
+      }
+    },
+    {
+      "id": "one-last-thing",
+      "nom": "One Last Thing",
+      "type": "bronze",
+      "categorie": "activites",
+      "description": "Réussis 50 défis.",
+      "astuce": "Les défis débloquent aussi les codes de triche.",
+      "en": {
+        "description": "Complete 50 challenges.",
+        "astuce": "Challenges also unlock cheat codes."
+      }
+    },
+    {
+      "id": "hot-together",
+      "nom": "Hot Together",
+      "type": "bronze",
+      "categorie": "braquages",
+      "description": "Sème un indice de recherche 4 étoiles avec ton partenaire.",
+      "en": {
+        "description": "Shake off a 4-star wanted level with your partner."
+      }
+    },
+    {
+      "id": "retail-therapy",
+      "nom": "Retail Therapy",
+      "type": "bronze",
+      "categorie": "braquages",
+      "description": "Braque 3 magasins à la suite avec ton partenaire, sans semer la police entre deux.",
+      "en": {
+        "description": "Rob 3 stores in a row with your partner without losing the cops in between."
+      }
+    },
+    {
+      "id": "whip-it-good",
+      "nom": "Whip It Good",
+      "type": "bronze",
+      "categorie": "vehicules",
+      "description": "Découvre 100 véhicules.",
+      "en": {
+        "description": "Discover 100 vehicles."
+      }
+    },
+    {
+      "id": "gunslinger",
+      "nom": "Gunslinger",
+      "type": "bronze",
+      "categorie": "combat",
+      "description": "Élimine 5 ennemis pendant une seule utilisation de la Concentration de combat.",
+      "en": {
+        "description": "Take down 5 enemies in a single use of Combat Focus."
+      }
+    },
+    {
+      "id": "sneakthief",
+      "nom": "Sneakthief",
+      "type": "bronze",
+      "categorie": "braquages",
+      "description": "Braque une bijouterie sans te faire repérer.",
+      "en": {
+        "description": "Rob a jewelry store without being spotted."
+      }
+    },
+    {
+      "id": "a-classic-blitz-play",
+      "nom": "A Classic Blitz Play",
+      "type": "bronze",
+      "categorie": "braquages",
+      "description": "Braque un fourgon blindé et échappe-toi.",
+      "en": {
+        "description": "Rob an armored truck and get away."
+      }
+    },
+    {
+      "id": "the-goodtime-state",
+      "nom": "The Goodtime State",
+      "type": "bronze",
+      "categorie": "exploration",
+      "description": "Explore tout Leonida en révélant chaque région de la carte.",
+      "en": {
+        "description": "Explore all of Leonida by revealing every region of the map."
+      }
+    },
+    {
+      "id": "pest-control",
+      "nom": "Pest Control",
+      "type": "bronze",
+      "categorie": "braquages",
+      "description": "Pille une opération illégale de chaque gang.",
+      "en": {
+        "description": "Hit an illegal operation run by each gang."
+      }
+    },
+    {
+      "id": "dime-on-the-dollar",
+      "nom": "Dime on the Dollar",
+      "type": "bronze",
+      "categorie": "argent",
+      "description": "Gagne 250 000 $ en blanchissant des billets marqués via tes contacts.",
+      "en": {
+        "description": "Make $250,000 laundering marked bills through your contacts."
+      }
+    },
+    {
+      "id": "treat-yo-self",
+      "nom": "Treat Yo Self",
+      "type": "bronze",
+      "categorie": "argent",
+      "description": "Dépense 100 000 $ au total dans les magasins.",
+      "en": {
+        "description": "Spend $100,000 in total across stores."
+      }
+    },
+    {
+      "id": "little-boxes",
+      "nom": "Little Boxes",
+      "type": "bronze",
+      "categorie": "argent",
+      "description": "Achète tous les garages.",
+      "astuce": "8 garages dans l’appli immobilière, après la mission « Daily Driver » du chapitre 2, pour environ 160 000 $ d’après OutputLag. Ceux offerts par l’histoire ne comptent pas.",
+      "en": {
+        "description": "Buy every garage.",
+        "astuce": "8 garages in the real estate app, available after the Chapter 2 mission “Daily Driver”, for about $160,000 according to OutputLag. Garages the story gives you don’t count."
+      }
+    },
+    {
+      "id": "on-the-spot",
+      "nom": "On the Spot",
+      "type": "bronze",
+      "categorie": "vehicules",
+      "description": "Enregistre 10 véhicules dans l’appli Scooter Bros.",
+      "en": {
+        "description": "Register 10 vehicles in the Scooter Bros app."
+      }
+    },
+    {
+      "id": "you-gotta-know",
+      "nom": "You Gotta Know When to Get Off",
+      "type": "or",
+      "categorie": "histoire",
+      "cache": true,
+      "description": "Termine la dernière mission de l’histoire.",
+      "en": {
+        "description": "Finish the last story mission."
+      }
+    },
+    {
+      "id": "just-like-paradise",
+      "nom": "Just Like Paradise",
+      "type": "bronze",
+      "categorie": "histoire",
+      "cache": true,
+      "description": "Termine la mission « Gone Fishing ».",
+      "en": {
+        "description": "Finish the mission “Gone Fishing”."
+      }
+    },
+    {
+      "id": "paradise-lost",
+      "nom": "Paradise Lost",
+      "type": "bronze",
+      "categorie": "histoire",
+      "cache": true,
+      "description": "Termine le chapitre 1.",
+      "en": {
+        "description": "Finish Chapter 1."
+      }
+    },
+    {
+      "id": "chapitre-2",
+      "nom": "T**s Ass Drug Money",
+      "type": "bronze",
+      "categorie": "histoire",
+      "cache": true,
+      "description": "Termine le chapitre 2.",
+      "en": {
+        "description": "Finish Chapter 2."
+      }
+    },
+    {
+      "id": "vice-city-baby",
+      "nom": "Vice City, Baby!",
+      "type": "bronze",
+      "categorie": "histoire",
+      "cache": true,
+      "description": "Termine le chapitre 3.",
+      "en": {
+        "description": "Finish Chapter 3."
+      }
+    },
+    {
+      "id": "top-of-the-world-ma",
+      "nom": "Top Of The World, Ma",
+      "type": "bronze",
+      "categorie": "histoire",
+      "cache": true,
+      "description": "Termine le chapitre 4.",
+      "en": {
+        "description": "Finish Chapter 4."
+      }
+    },
+    {
+      "id": "trust",
+      "nom": "Trust",
+      "type": "bronze",
+      "categorie": "histoire",
+      "cache": true,
+      "description": "Termine la mission « Breakfast Run ».",
+      "en": {
+        "description": "Finish the mission “Breakfast Run”."
+      }
+    },
+    {
+      "id": "break-the-bank",
+      "nom": "Break the Bank",
+      "type": "bronze",
+      "categorie": "histoire",
+      "cache": true,
+      "description": "Termine la mission « The Cartel Heist ».",
+      "en": {
+        "description": "Finish the mission “The Cartel Heist”."
+      }
+    },
+    {
+      "id": "family-matters",
+      "nom": "Family Matters",
+      "type": "bronze",
+      "categorie": "histoire",
+      "cache": true,
+      "description": "Termine la mission « Child’s Play ».",
+      "en": {
+        "description": "Finish the mission “Child’s Play”."
+      }
+    },
+    {
+      "id": "dwnfall",
+      "nom": "DWNFALL",
+      "type": "bronze",
+      "categorie": "histoire",
+      "cache": true,
+      "description": "Termine la mission « Headliners ».",
+      "en": {
+        "description": "Finish the mission “Headliners”."
+      }
+    },
+    {
+      "id": "hi-jacked",
+      "nom": "Hi-Jacked",
+      "type": "bronze",
+      "categorie": "histoire",
+      "cache": true,
+      "description": "Termine la mission « VCIA Takedown ».",
+      "en": {
+        "description": "Finish the mission “VCIA Takedown”."
+      }
+    },
+    {
+      "id": "snow-storm",
+      "nom": "Snow Storm",
+      "type": "bronze",
+      "categorie": "histoire",
+      "cache": true,
+      "description": "Termine la mission « Operation Savage Glory ».",
+      "en": {
+        "description": "Finish the mission “Operation Savage Glory”."
+      }
+    },
+    {
+      "id": "road-to-rehabilitation",
+      "nom": "Road to Rehabilitation",
+      "type": "bronze",
+      "categorie": "secondaire",
+      "cache": true,
+      "description": "Termine la dernière mission d’Andy.",
+      "en": {
+        "description": "Finish Andy’s last mission."
+      }
+    },
+    {
+      "id": "no-boat-accident",
+      "nom": "This Was No Boat Accident",
+      "type": "bronze",
+      "categorie": "secondaire",
+      "cache": true,
+      "description": "Termine la dernière mission de Kenton.",
+      "en": {
+        "description": "Finish Kenton’s last mission."
+      }
+    },
+    {
+      "id": "the-lone-rider",
+      "nom": "The Lone Rider",
+      "type": "bronze",
+      "categorie": "secondaire",
+      "cache": true,
+      "description": "Termine la dernière mission de Billy.",
+      "en": {
+        "description": "Finish Billy’s last mission."
+      }
+    },
+    {
+      "id": "supply-demand",
+      "nom": "Supply & Demand",
+      "type": "bronze",
+      "categorie": "secondaire",
+      "cache": true,
+      "description": "Termine la dernière mission de Randy.",
+      "en": {
+        "description": "Finish Randy’s last mission."
+      }
+    },
+    {
+      "id": "spin-on-this",
+      "nom": "Spin On This!",
+      "type": "bronze",
+      "categorie": "secondaire",
+      "cache": true,
+      "description": "Termine la dernière mission de Tyrone.",
+      "en": {
+        "description": "Finish Tyrone’s last mission."
+      }
+    },
+    {
+      "id": "fair-game",
+      "nom": "Fair Game",
+      "type": "bronze",
+      "categorie": "secondaire",
+      "cache": true,
+      "description": "Chasse un animal unique pour Bret.",
+      "en": {
+        "description": "Hunt a unique animal for Bret."
+      }
+    },
+    {
+      "id": "catch-me-if-you-can",
+      "nom": "Catch Me If You Can",
+      "type": "bronze",
+      "categorie": "divers",
+      "cache": true,
+      "description": "Fais un départ imprévu à la VCIA.",
+      "en": {
+        "description": "Make an unscheduled departure at VCIA."
+      }
+    },
+    {
+      "id": "challenging-tank",
+      "nom": "Challenging Tank",
+      "type": "bronze",
+      "categorie": "divers",
+      "cache": true,
+      "description": "Description énigmatique : un clin d’œil aux chars Rhino.",
+      "en": {
+        "description": "Cryptic description: a nod to the Rhino tanks."
+      }
+    },
+    {
+      "id": "in-the-beginning",
+      "nom": "In The Beginning…",
+      "type": "bronze",
+      "categorie": "exploration",
+      "cache": true,
+      "description": "Savoure un cocktail avec vue sur Ocean Beach.",
+      "en": {
+        "description": "Have a cocktail overlooking Ocean Beach."
+      }
+    },
+    {
+      "id": "capital-offense",
+      "nom": "Capital Offense",
+      "type": "bronze",
+      "categorie": "vehicules",
+      "cache": true,
+      "description": "Sors d’une concession automobile en traversant la vitrine, à l’ancienne.",
+      "en": {
+        "description": "Leave a car showroom through the window, old-school style."
+      }
+    },
+    {
+      "id": "lets-go-bowling",
+      "nom": "Let’s Go Bowling",
+      "type": "bronze",
+      "categorie": "activites",
+      "cache": true,
+      "description": "Description énigmatique : aller jusqu’au bout au bowling de Kolt & Associates.",
+      "en": {
+        "description": "Cryptic description: see it through at the Kolt & Associates bowling alley."
+      }
+    },
+    {
+      "id": "personal-best",
+      "nom": "Personal Best",
+      "type": "bronze",
+      "categorie": "divers",
+      "cache": true,
+      "description": "Description énigmatique : un partenariat qui plaît au plus grand nombre.",
+      "en": {
+        "description": "Cryptic description: a partnership with broad appeal."
+      }
+    },
+    {
+      "id": "actions-speak-louder",
+      "nom": "Actions Speak Louder",
+      "type": "bronze",
+      "categorie": "divers",
+      "cache": true,
+      "description": "Description énigmatique : des choix faits, pour le meilleur ou pour le pire.",
+      "en": {
+        "description": "Cryptic description: choices made, for better or worse."
+      }
+    },
+    {
+      "id": "bad-luck-i-guess",
+      "nom": "Bad Luck, I Guess",
+      "type": "bronze",
+      "categorie": "divers",
+      "cache": true,
+      "description": "Description énigmatique : une seconde tentative.",
+      "en": {
+        "description": "Cryptic description: a second attempt."
+      }
+    },
+    {
+      "id": "the-truth-is-out-there",
+      "nom": "The Truth Is Out There",
+      "type": "bronze",
+      "categorie": "divers",
+      "cache": true,
+      "description": "Description énigmatique : un événement déroutant.",
+      "en": {
+        "description": "Cryptic description: a baffling event."
+      }
+    },
+    {
+      "id": "ten-pin",
+      "nom": "Ten Pin",
+      "type": "bronze",
+      "categorie": "combat",
+      "cache": true,
+      "description": "Renverse des passants avec une attaque au corps à corps depuis un véhicule.",
+      "en": {
+        "description": "Knock people over with a melee attack from a vehicle."
+      }
+    }
+  ],
+  "note_en": "Official English names, with each condition explained in plain words. 27 trophies are visible and 28 are hidden: they are masked by default to avoid spoilers.",
+  "categories_en": {
+    "histoire": "Story",
+    "secondaire": "Side missions",
+    "braquages": "Heists and police",
+    "activites": "Activities",
+    "vehicules": "Vehicles",
+    "exploration": "Exploration",
+    "collection": "Collectibles",
+    "argent": "Money and property",
+    "combat": "Combat",
+    "divers": "Misc"
+  }
+}

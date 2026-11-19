@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{titre_complet}}</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="{{canonical}}">
+<meta name="theme-color" content="#1b1230">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="{{og_locale}}">
+<meta property="og:site_name" content="{{nom_site}}">
+<meta property="og:title" content="{{titre}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:url" content="{{canonical}}">
+<meta property="og:image" content="{{url}}/assets/{{og_image}}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{og_alt}}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="{{racine}}assets/icone.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{racine}}assets/icone-180.png">
+<link rel="manifest" href="{{racine}}manifest.webmanifest">
+<link rel="stylesheet" href="{{racine}}assets/style.css?v={{version}}">
+{{head_extra}}
+{{pub_head}}
+</head>
+<body>
+<a class="evitement" href="#contenu">{{evitement}}</a>
+{{bandeau}}
+<header class="entete">
+  <a class="marque" href="{{lien:}}">
+    <span class="borne" aria-hidden="true"><span>1</span><span>0</span><span>0</span></span>
+    <span>{{nom_site}}</span>
+  </a>
+  <nav class="menu" aria-label="{{menu_label}}">{{menu}}{{langue}}</nav>
+</header>
+<main id="contenu" class="page">
+{{contenu}}
+</main>
+<footer class="pied">
+  <div class="pied__dedans">
+    <p>{{pied_avertissement}}</p>
+    <p class="pied__liens">{{pied_liens}}</p>
+  </div>
+</footer>
+<script src="{{racine}}assets/app.js?v={{version}}" defer></script>
+{{scripts}}
+</body>
+</html>

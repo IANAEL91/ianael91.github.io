@@ -1,0 +1,55 @@
+# Construit et publie le site automatiquement :
+# - à chaque modification poussée sur la branche main,
+# - tous les jours vers 6 h 17 (heure de Paris en hiver), pour rafraîchir les vidéos officielles,
+#   avancer le compteur « disponible depuis » et changer les contenus de saison (Black Friday, Noël),
+# - à la demande depuis l'onglet Actions (bouton « Run workflow »).
+# Après une modification, les pages sont aussi signalées à Bing et aux moteurs IndexNow.
+name: Construire et publier le site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  construire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Construire le site
+        run: python3 build.py
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  publier:
+    needs: construire
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - id: deploiement
+        uses: actions/deploy-pages@v5
+
+  signaler:
+    needs: publier
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Signaler les pages à IndexNow
+        run: python3 build.py --offline --indexnow
+        continue-on-error: true

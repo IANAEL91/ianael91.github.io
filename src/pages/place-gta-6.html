@@ -1,0 +1,71 @@
+<!--meta {"titre": "GTA 6 : j’ai assez de place ? Calculateur d’espace et de téléchargement", "description": "GTA 6 demande jusqu’à 212 Go. Entre l’espace libre de ta PS5 ou Xbox et ton débit : tu sais tout de suite si ça passe et combien de temps prendra le téléchargement.", "nav": "place-gta-6", "priorite": "0.9", "scripts": ["place.js"], "alt": "gta-6-storage"} -->
+<h1>GTA 6&#8239;: j’ai assez de place&#8239;?</h1>
+<p class="chapo">Le jeu demande jusqu’à 212&nbsp;Go selon Rockstar. Entre l’espace libre de ta console et ton débit&#8239;: le calcul se fait tout de suite.</p>
+
+<div class="calculateur">
+  <form id="calcul" class="formulaire" novalidate>
+    <div class="champ">
+      <label for="console">Ta console</label>
+      <select id="console" name="console">
+        <option value="ps5" data-famille="ps5" data-utile="667">PS5 (825 Go)</option>
+        <option value="ps5-slim" data-famille="ps5">PS5 Slim (1 To)</option>
+        <option value="ps5-pro" data-famille="ps5">PS5 Pro (2 To)</option>
+        <option value="series-x" data-famille="xbox" data-utile="802">Xbox Series X (1 To)</option>
+        <option value="series-s" data-famille="xbox" data-utile="364">Xbox Series S (512 Go)</option>
+      </select>
+      <p id="contexte" class="aide discret">Sur une PS5 standard, environ 667&nbsp;Go sont utilisables au total.</p>
+    </div>
+    <div class="champ">
+      <label for="libre">Espace libre</label>
+      <div class="suffixe"><input id="libre" name="libre" type="text" inputmode="decimal" autocomplete="off" placeholder="Ex. 250" aria-describedby="aide-libre"><span aria-hidden="true">Go</span></div>
+      <p id="aide-libre" class="aide discret">Sur PS5&#8239;: Paramètres, puis Stockage. Sur Xbox&#8239;: Paramètres, Système, puis Stockage.</p>
+    </div>
+    <div class="champ">
+      <label for="debit">Ton débit</label>
+      <div class="suffixe"><input id="debit" name="debit" type="text" inputmode="decimal" autocomplete="off" placeholder="Ex. 300"><span aria-hidden="true">Mb/s</span></div>
+      <div class="puces" role="group" aria-label="Débits courants">
+        <button type="button" class="puce" data-debit="15" aria-pressed="false">ADSL 15</button>
+        <button type="button" class="puce" data-debit="50" aria-pressed="false">Box 4G 50</button>
+        <button type="button" class="puce" data-debit="300" aria-pressed="false">Fibre 300</button>
+        <button type="button" class="puce" data-debit="1000" aria-pressed="false">Fibre 1&nbsp;Gb/s</button>
+      </div>
+    </div>
+  </form>
+
+  <div class="resultat-zone">
+    <div id="resultat" class="sign sign--bleu resultat" aria-live="polite">
+      <p id="res-titre" class="sign__titre">Entre ton espace libre</p>
+      <p id="res-texte" class="resultat__texte">On te dit tout de suite si les 212&nbsp;Go passent.</p>
+      <p id="res-temps" class="resultat__temps">Ajoute ton débit pour estimer le temps de téléchargement.</p>
+    </div>
+    <p class="discret note-calcul">Calcul théorique, avec 1&nbsp;Go = 1&nbsp;milliard d’octets. Le soir de la sortie, les serveurs sont souvent saturés&#8239;: prévois plus large.</p>
+  </div>
+</div>
+
+<section class="bloc conseils" data-conseils="ps5" hidden aria-labelledby="conseils-ps5">
+  <h2 id="conseils-ps5">Libérer de la place sur PS5</h2>
+  <ul class="liste">
+    <li>Supprime les jeux que tu ne lances plus&#8239;: ils restent dans ta bibliothèque et tes sauvegardes restent sur la console.</li>
+    <li>Déplace des jeux PS5 sur un disque USB&#8239;: il sert à les stocker, mais il faudra les remettre sur la console pour y jouer.</li>
+    <li>Ajoute un SSD M.2 (NVMe PCIe 4.0, avec dissipateur) dans l’emplacement d’extension de la PS5&#8239;: les jeux s’y lancent directement.</li>
+  </ul>
+  <p class="boutons"><a class="bouton" href="{{amazon:SSD M.2 NVMe PCIe 4.0 PS5 dissipateur}}" rel="sponsored nofollow noopener" target="_blank">Voir les SSD compatibles PS5</a></p>
+  {{note_affiliation}}
+</section>
+
+<section class="bloc conseils" data-conseils="xbox" hidden aria-labelledby="conseils-xbox">
+  <h2 id="conseils-xbox">Libérer de la place sur Xbox</h2>
+  <ul class="liste">
+    <li>Désinstalle les jeux que tu ne lances plus&#8239;: ils restent dans ta collection.</li>
+    <li>Un disque USB peut stocker tes jeux Xbox Series, mais pas les lancer.</li>
+    <li>Ajoute une carte d’extension de stockage pour Xbox Series&#8239;: les jeux s’y lancent comme depuis le SSD interne.</li>
+  </ul>
+  <p class="boutons"><a class="bouton" href="{{amazon:carte extension stockage Xbox Series}}" rel="sponsored nofollow noopener" target="_blank">Voir les cartes d’extension Xbox</a></p>
+  {{note_affiliation}}
+</section>
+
+<section class="bloc" aria-labelledby="sources-place">
+  <h2 id="sources-place">D’où viennent ces chiffres</h2>
+  <p class="texte">Rockstar annonce jusqu’à 212&nbsp;Go selon l’appareil. L’espace utilisable indiqué pour chaque console est une moyenne relevée par la presse.</p>
+  <p class="source">Sources&#8239;: <a href="https://gamewave.fr/gta-6/gta-6-quel-est-le-poids-du-jeu-sur-ps5-et-xbox-series/" rel="noopener">Gamewave</a>, <a href="https://www.actugaming.net/?p=832977" rel="noopener">Actugaming</a></p>
+</section>
