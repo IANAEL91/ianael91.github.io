@@ -2,7 +2,7 @@
   "nom_site": "Objectif 100 %",
   "url": "https://ianael91.github.io",
   "domaine_perso": "",
-  "amazon_tag": "",
+  "amazon_tag": "objectif100-21",
   "amazon_en": {
     "domaine": "www.amazon.com",
     "tag": ""
@@ -16,6 +16,7 @@
     "statut": "",
     "siret": "",
     "adresse": "",
+    "telephone": "",
     "email": ""
   },
   "youtube": {

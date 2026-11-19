@@ -748,12 +748,15 @@ class Site:
 
         email = (ed.get("email") or "").strip()
         siret = (ed.get("siret") or "").strip()
+        telephone = (ed.get("telephone") or "").strip()
         return {
             "editeur_nom": champ("nom"),
             "editeur_statut": champ("statut"),
             "editeur_adresse": champ("adresse"),
             "editeur_email": f'<a href="mailto:{e(email)}">{e(email)}</a>' if email else vide,
             "editeur_siret": f"<br>SIRET&#8239;: {e(siret)}" if siret else "",
+            "editeur_telephone": (f"<br>{'Téléphone&#8239;: ' if langue == 'fr' else 'Phone: '}{e(telephone)}"
+                                  if telephone else ""),
         }
 
     def rendre_page(self, layout: str, langue: str, slug: str, meta: dict, fragment: str) -> None:
